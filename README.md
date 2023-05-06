@@ -33,3 +33,6 @@ birdplot = ggplot(blue_jays, aes(x = Mass, y = Head)) +
         legend.title = element_text(face = "bold"))
 plot(birdplot)
 ```
+
+![image](https://user-images.githubusercontent.com/122941467/236639774-3978c2f5-adc9-4da2-989a-1c6de487e09e.png)
+

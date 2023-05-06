@@ -1,7 +1,7 @@
 # Code-Chunk
 This is a code chunk I wrote to create a visualization of data on Blue Jays including their head length, body mass, sex, and skull size.
 
-
+```
 birdplot = ggplot(blue_jays, aes(x = Mass, y = Head)) +
   geom_point(aes(size = Skull, color = KnownSex)) +
   scale_size(name = "skull size (mm)", 
@@ -32,3 +32,4 @@ birdplot = ggplot(blue_jays, aes(x = Mass, y = Head)) +
         axis.title.y = element_text(face = "bold"),
         legend.title = element_text(face = "bold"))
 plot(birdplot)
+```
